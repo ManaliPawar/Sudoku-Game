@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+  </head>
+  <header>
+    <h1>Sudoku Game</h1>
+    <div id="setup">
+      <div id="difficulty-level">
+        <h3>Choose the Difficulty level: </h3>
+        <label><input id="diff-1" type="radio" name="diff" value="easy" checked>Easy</label>
+        <label><input id="diff-2" type="radio" name="diff" value="medium">Medium</label>
+        <label><input id="diff-3" type="radio" name="diff" value="hard">Hard</label>
+      </div>
+      <div id="time">
+        <h3>Choose the Time: </h3>
+        <label><input id="time-1" type="radio" name="time" value="Three" checked>3 Min</label>
+        <label><input id="time-2" type="radio" name="time" value="Five">5 Min</label>
+        <label><input id="time-3" type="radio" name="time" value="Ten">10 Min</label>
+
+      </div>
+      <div id="theme">
+        <h3>Choose Theme: </h3>
+        <label><input id="theme-1" type="radio" name="theme" value="Light" checked>Light</label>
+        <label><input id="theme-2" type="radio" name="theme" value="Dark">Dark</label>
+
+      </div>
+
+    </div>
+    <button id="start-btn"> <strong>Start New Game!!!</strong></button>
+  </header>
+  <body>
+    <div id="statistics">
+    <p id="timer"></p>
+    <p id="lives"></p>
+
+    </div>
+    <div id="game">
+      <div id="board"></div>
+      <div id="number-list" class="hidden">
+        <p id="one"><strong>1</strong></p>
+        <p id="two"><strong>2</strong></p>
+        <p id="three"><strong>3</strong></p>
+        <p id="four"><strong>4</strong></p>
+        <p id="five"><strong>5</strong></p>
+        <p id="six"><strong>6</strong></p>
+        <p id="seven"><strong>7</strong></p>
+        <p id="eight"><strong>8</strong></p>
+        <p id="nine"><strong>9</strong></p>
+
+
+      </div>
+
+    </div>
+
+  </body>
+  <footer>
+    <p><strong>Play to Win! But enjoy the fun!</strong></p>
+    <p> <strong>Manali Pawar</strong></p>
+
+  </footer>
+</html>
